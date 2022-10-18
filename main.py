@@ -11,6 +11,5 @@ numbers = [     [10, 11, 12, 13, 14],
 rnum = len(numbers)
 cnum = len(numbers[0])
 
-# ******************************
-# Make your Code
-# ******************************
+for i in range(len(numbers)):
+    print(sum(numbers[i]))
